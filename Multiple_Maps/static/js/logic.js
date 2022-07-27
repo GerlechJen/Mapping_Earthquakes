@@ -39,7 +39,7 @@ d3.json(airportData).then(function(data) {
       // We turn each feature into a marker on the map.
       onEachFeature: function(feature, layer) {
       console.log(layer);
-      layer.bindPopup("<h2>" + "Airport code: " + feature.properties.faa + " " + "Airport name: " + feature.properties.name + "</h2>") 
+      layer.bindPopup("<h2> Airport code: " + feature.properties.faa + "</h2><hr><h2> Airport name: " + feature.properties.name + "</h2>") 
       }          
     }).addTo(map);
 });
