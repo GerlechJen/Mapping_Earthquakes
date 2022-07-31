@@ -12,9 +12,18 @@ The earthquake GeoJSON data was retrieved using the code;
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data)
 ```
 
-The streets and satelliteStreets map styles were used on the map. 
+The center of our map is the geographic center of the United States with coordinates [39.5, -98.5], and default layer streets. Aside the streets layer, The outdoors and satelliteStreets map styles were also used on the map. 
 We assign a tileLayer method to a variable 'streets"
 The earthquake data has the geometry object type Point. 
+
+A style was assigned to each earthquake by using a circle marker and adjusting the line color, fill color, opacity, fill opacity, stroke, weight, and radius.
+
+The radius represents the earthquake's magnitude.Earthquakes with a magnitude of 0 were plotted with a radius of 1 and all other magnitudes were plotted by multiplying by 4. The earthquake circle markers were also color-coded based on magnitude.The magnitudes and locations were also added as popups for each earthquake.
+
+
+The earthquake data was added as an overlay on both the Streets and Satellite tile layers so that the data can be turned on and off by the viewer. A legend was also added for the color range of the earthquakes.
+
+The earthquake data in relation to the tectonic plates’ location on the earth was shown on the map. Also, all earthquakes with a magnitude greater than 4.5 were shown on the map
 
 
 
