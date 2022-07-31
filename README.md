@@ -36,4 +36,8 @@ The tectonic plate data is added to the overlay object
 
 The two earthquake data and tectonic plate data are displayed on the map when the page loads
 
+The default map displayed when the page loads is as shown:
+
+![image](https://github.com/GerlechJen/Mapping_Earthquakes/blob/main/Images/default%20map.png)
+
 ## Summary
