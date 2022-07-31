@@ -12,7 +12,7 @@ The earthquake GeoJSON data was retrieved using the code;
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data)
 ```
 
-The center of our map is the geographic center of the United States with coordinates [39.5, -98.5], and default layer streets. Aside the streets layer, The outdoors and satelliteStreets map styles were also used on the map. 
+The center of our map is the geographic center of the United States with coordinates [39.5, -98.5], and default layer streets. Aside the streets layer, The outdoors and satelliteStreets map styles were also added to the map. 
 We assign a tileLayer method to a variable 'streets"
 The earthquake data has the geometry object type Point. 
 
@@ -25,8 +25,15 @@ The earthquake data was added as an overlay on both the Streets and Satellite ti
 
 The earthquake data in relation to the tectonic plates’ location on the earth was shown on the map. Also, all earthquakes with a magnitude greater than 4.5 were shown on the map.
 
-A third overlay wasalso added to the map. 
+A second and third overlay were added to the map for the tectonic plate data and major earthquake data respecivly. 
+The tectonic plate data and major earthquake data are added to the overlay object
 
+the three datasets can be toggled on or off
 
+The tectonic plate data is added as a second layer group 
+
+The tectonic plate data is added to the overlay object
+
+The two earthquake data and tectonic plate data are displayed on the map when the page loads
 
 ## Summary
