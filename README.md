@@ -23,7 +23,9 @@ The radius represents the earthquake's magnitude.Earthquakes with a magnitude of
 
 The earthquake data was added as an overlay on both the Streets and Satellite tile layers so that the data can be turned on and off by the viewer. A legend was also added for the color range of the earthquakes.
 
-The earthquake data in relation to the tectonic plates’ location on the earth was shown on the map. Also, all earthquakes with a magnitude greater than 4.5 were shown on the map
+The earthquake data in relation to the tectonic plates’ location on the earth was shown on the map. Also, all earthquakes with a magnitude greater than 4.5 were shown on the map.
+
+A third overlay wasalso added to the map. 
 
 
 
