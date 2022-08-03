@@ -34,6 +34,12 @@ The tectonic plate data is added as a second layer group
 
 The tectonic plate data is added to the overlay object
 
+----
+
+**Completed by:** Jennifer Anno-Kusi
+
+**Email:** jannokusi@gmail.com 
+
 The two earthquake data and tectonic plate data are displayed on the map when the page loads
 
 The default map displayed when the page loads is as shown:
