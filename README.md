@@ -24,7 +24,7 @@ let baseMaps = {
 
 ```
 
-A style was assigned to each earthquake by using a circle marker and adjusting the line color, fill color, opacity, fill opacity, stroke, weight, and radius. The diameter of the markers for each earthquake reflects the magnitude of the earthquake in their size and color. Earthquakes with a magnitude of 0 were plotted with a radius of 1 and all other magnitudes were plotted by multiplying by 4. The earthquake circle markers are also color-coded based on magnitude. Earthquakes with higher magnitudes appear darker in color. The magnitudes and locations of each earthquake were also added as pop-up markers.
+A style was assigned to each earthquake by using a circle marker and adjusting the line color, fill color, opacity, fill opacity, stroke, weight, and radius. The diameter of the markers for each earthquake reflects the magnitude of the earthquake in size and color. Earthquakes with a magnitude of 0 were plotted with a radius of 1 and all other magnitudes were plotted by multiplying by 4. The earthquake circle markers are also color-coded based on magnitude. Earthquakes with higher magnitudes appear darker in color. The magnitudes and locations of each earthquake were also added as pop-up markers.
 
 The earthquake data in relation to the tectonic plates’ location on the earth was added as a second layer group. To illustrate this relationship between the location and frequency of seismic activity and tectonic plates, font lines were added on the map. Also, all earthquakes with a magnitude greater than 4.5 were shown on a separate map. A second and third overlay were added to the map for the tectonic plate data and major earthquake data respecivly. 
  
