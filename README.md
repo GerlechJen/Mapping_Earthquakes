@@ -8,13 +8,13 @@ In my role as a data visualization specialist for the Disaster Reporting Network
 The earthquake GeoJSON data which has the geometry object type Point was retrieved using the code:
 
 ``` JavaScript
-d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data)
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data))
 
 ```
 
 The center of the map is the geographic center of the United States with coordinates [39.5, -98.5], and default layer streets. Aside the streets layer, the outdoors and satelliteStreets map styles were also added to the map so that the three datasets can be toggled on or off by the viewer. A base layer was created to hold all three maps using the code;
 
-```
+``` JavaScript
 // Create a base layer that holds all three maps.
 let baseMaps = {
   "Streets": streets,
