@@ -28,7 +28,7 @@ A style was assigned to each earthquake by using a circle marker and adjusting t
 
 The earthquake data in relation to the tectonic plates’ location on the earth was added as a second layer group. To illustrate this relationship between the location and frequency of seismic activity and tectonic plates, font lines were added on the map. Also, all earthquakes with a magnitude greater than 4.5 were shown on a separate map. A second and third overlay were added to the map for the tectonic plate data and major earthquake data respecivly. 
  
-
+## Summary
 When the webpage loads, the two earthquake data and tectonic plate data are displayed on the map. The default map displayed when the page loads is as shown:
 
 ![image](https://github.com/GerlechJen/Mapping_Earthquakes/blob/main/Images/default%20map.png)
